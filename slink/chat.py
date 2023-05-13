@@ -75,7 +75,7 @@ def gen_response(
     context: str,
     examples: list,
     latest: str,
-    project_id: str = "fraser-eng-dev",
+    project_id: str ,
     model_name: str = "chat-bison@001",
     temperature: float = 0.2,
     max_output_tokens: int = 256,
